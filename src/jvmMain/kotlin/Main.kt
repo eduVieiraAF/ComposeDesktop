@@ -4,6 +4,7 @@ import androidx.compose.ui.window.Window
 import androidx.compose.ui.window.application
 import androidx.compose.ui.window.rememberWindowState
 import examples.Example03
+import examples.exampl04
 
 
 fun main() = application {
@@ -14,6 +15,6 @@ fun main() = application {
         resizable = false,
         icon = painterResource("phoenix.ico")
     ) {
-        Example03()
+        exampl04()
     }
 }
