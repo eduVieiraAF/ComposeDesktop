@@ -5,16 +5,17 @@ import androidx.compose.ui.window.application
 import androidx.compose.ui.window.rememberWindowState
 import examples.Example03
 import examples.exampl04
+import examples.example05
 
 
 fun main() = application {
     Window(
         onCloseRequest = ::exitApplication,
         title = "Compose for desktop",
-        state = rememberWindowState(width = 600.dp, height = 400.dp),
+        state = rememberWindowState(width = 700.dp, height = 500.dp),
         resizable = false,
         icon = painterResource("phoenix.ico")
     ) {
-        exampl04()
+        example05()
     }
 }
