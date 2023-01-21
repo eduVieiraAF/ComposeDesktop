@@ -3,6 +3,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Window
 import androidx.compose.ui.window.application
 import androidx.compose.ui.window.rememberWindowState
+import examples.LazyScrollale
 import examples.scrolling
 
 
@@ -14,6 +15,6 @@ fun main() = application {
         resizable = false,
         icon = painterResource("phoenix.ico")
     ) {
-        scrolling()
+        LazyScrollale()
     }
 }
