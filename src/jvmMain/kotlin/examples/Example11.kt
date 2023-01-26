@@ -16,6 +16,10 @@ fun ApplicationScope.MyWindow(
             Item("New window", onClick = state.openNewWindow)
             Item("Exit", onClick = state.exit)
         }
+
+        Menu("About") {
+            Item("by eduVieiraAF", onClick = {})
+        }
     }
 }
 
