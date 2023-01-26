@@ -30,9 +30,9 @@ fun LazyScrollale() {
                 .padding(end = 12.dp),
             state
         ) {
-            items(1000) {x ->
+            items(100) { x ->
                 ItemBox("Item #$x")
-                Divider(modifier = Modifier.padding(vertical = 5.dp))
+                Divider(modifier = Modifier.padding(vertical = 5.dp), color = Color.White)
             }
         }
 
